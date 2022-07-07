@@ -1,0 +1,47 @@
+
+.secaoInstitucional{
+    background-color: #F7F4F4;
+}
+
+.container__institucional{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+
+.alinhar{
+    display: flex;
+}
+
+.container__institucional__itens{
+    width: 35%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   
+}
+
+.container__institucional__titulo{
+    padding-top: 0.8rem;
+    padding-left: 0.5rem;
+    font-weight: 700;
+}
+
+.container__institucional__paragrafo{
+    margin-top: 1rem;
+    margin-left: 2.4rem;
+}
+@media screen and (max-width:480px){
+    .container__institucional{
+        
+        width: 100%;
+        margin: auto; 
+    }
+
+    .container__institucional__itens{
+        width: 90%;
+        
+    }
+}

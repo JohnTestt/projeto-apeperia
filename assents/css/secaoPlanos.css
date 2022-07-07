@@ -1,0 +1,152 @@
+
+.secaoPlanos{
+    
+    background-color: #F7F4F4;
+}
+
+.secaoPlanos__tituloPrincipal{
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    font-family:  'montserrat';
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.container__planos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container__planos__itens{
+    box-shadow: 0 2px 9px #ddd;
+    width: 18%;
+    list-style: none;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.container__planos__titulo{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+    border-bottom: solid #ddd 1px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#planos__titulo1, #price1{
+    color: #56CCF2;
+}
+
+#planos__titulo2, #price2{
+    color: #B04CD9;
+}
+
+#planos__titulo3, #price3{
+    color: #E33B3B;
+}
+
+.container__planos__price{
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+}
+
+.container__planos__lis{
+    margin-left: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+
+
+.container__planos__botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6rem;
+    margin-bottom: 1.2rem;
+    
+}
+
+.container__planos__botao1{
+    width: 80%;
+    min-height: 2.5rem;
+    font-size: 1.2rem;
+    color: #56CCF2 ;
+    border: solid #56CCF2 1px ;
+    background-color: white;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.container__planos__botao1:hover{
+    transform: scale(1.08);
+    color: white;
+    background-color: #56CCF2;
+    
+}
+
+.container__planos__botao2{
+    width: 80%;
+    min-height: 2.5rem;
+    font-size: 1.2rem;
+    color:  #B04CD9 ;
+    border: solid  #B04CD9 1px ;
+    background-color: white;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.container__planos__botao2:hover{
+    transform: scale(1.08);
+    color: white;
+    background-color: #B04CD9;
+    
+}
+
+.container__planos__botao3{
+    width: 80%;
+    min-height: 2.5rem;
+    font-size: 1.2rem;
+    color: #E33B3B ;
+    border: solid #E33B3B 1px ;
+    background-color: white;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.container__planos__botao3:hover{
+    transform: scale(1.08);
+    color: white;
+    background-color: #E33B3B;
+    
+    
+}
+
+@media screen and (max-width:480px){
+
+    .container__planos{
+       
+        align-items: center;
+        flex-wrap: wrap;
+       
+    }
+
+    .container__planos__itens{
+       
+        width: 80%;
+       
+    }
+
+    .secaoPlanos__tituloPrincipal{
+       
+        padding-top: 1.5rem;
+       
+    }
+}

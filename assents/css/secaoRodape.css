@@ -1,0 +1,75 @@
+.secaoRodape{
+    border: solid  #00161C;
+    background-color: #00161C;
+    color: #FFF;
+}
+
+.container__rodape{
+    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.container__rodape__img{
+    margin-right: 1rem;
+}
+
+.rodape__menu{
+
+    width: 80%;
+    margin: auto;
+    display: flex;
+    list-style: none;
+    margin-bottom: 2.5rem;
+}
+
+.rodape__menu__itens{
+    margin-right: 1rem;
+}
+
+
+.rodape__menu__itens:hover {
+
+    transform: scale(1.08);
+
+}
+
+
+
+
+@media screen and (max-width:480px){
+
+    .container__rodape{
+       
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1rem;
+
+       
+    }
+
+    .container__rodape__itens{
+        margin-bottom: 0.8rem;
+        
+    }
+
+    .container__rodape__img{
+        margin-right: 1.5rem;
+    }
+
+    .rodape__menu{
+        box-sizing: border-box;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+       
+    }
+    .rodape__menu__itens{
+       margin-bottom: 0.5rem;
+    }
+}
