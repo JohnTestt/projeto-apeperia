@@ -9,6 +9,6 @@
 
 <h2>👨‍💻 Projeto</h2>
 
-<p>  Esse projeto foi desenvolvido por mim, com base no layot obtido na Alura.</p>
+<p>  Esse projeto foi desenvolvido por mim, com base no layot obtido na Alura, com interface responsiva.</p>
 
 <h4>📸 <a href="https://johntestt.github.io/projeto-apeperia/"> Clique aqui para visualizar o site</a></h4>
